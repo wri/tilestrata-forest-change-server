@@ -1,8 +1,8 @@
 FROM mhart/alpine-node:7.2
 MAINTAINER raul.requero@vizzuality.com
 
-ENV NAME node-skeleton
-ENV USER node-skeleton
+ENV NAME tilestrata-forest-change-server
+ENV USER tilestrata-forest-change-server
 
 RUN apk update && apk upgrade && \
     apk add --no-cache --update bash git openssh python alpine-sdk

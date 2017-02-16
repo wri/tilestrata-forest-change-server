@@ -10,4 +10,4 @@ develop:
     CT_TOKEN: null
   command: develop
   volumes:
-    - ./app:/opt/node-skeleton/app
+    - ./app:/opt/tilestrata-forest-change-server/app

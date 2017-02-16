@@ -4,7 +4,7 @@ test:
     service: base
   ports:
     - "3005"
-  container_name: node-skeleton-test
+  container_name: tilestrata-forest-change-server
   environment:
     NODE_ENV: test
     CT_URL: http://mymachine:9000
